@@ -1,6 +1,6 @@
 # Datasets
 
-Raw datasets are not redistributed in this repository — they are
+Raw datasets are not redistributed in this repository, they are
 downloaded from the original publications and processed locally.
 
 ## Megascale (training)
