@@ -10,7 +10,7 @@ architectural changes:
    distribution.
 2. **Siamese anti-symmetric regularization** that penalizes the
    squared forward-reverse prediction sum.
-3. **OOD-margin consistency loss** — a novel input-noise consistency
+3. **OOD-margin consistency loss** : a novel input-noise consistency
    regularizer applied to the per-position feature representation.
 
 The combined three-loss objective (configuration E in the paper)
