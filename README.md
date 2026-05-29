@@ -50,13 +50,6 @@ figures/                    Figure generation
 
 supplementary/              Supplementary text and captions
 
-experiments-archive/        Code for the negative results documented in the paper
-  k50_multitask/             K_50 multi-task supervision (did not improve OOD)
-  move_b/                    ProteinMPNN structural relaxation features (did not improve OOD)
-  thermo_head/               Failed thermodynamic-head variant (pre-locking)
-  representation_shift/      UMAP/PCA/CKA/Wasserstein analyses (dropped from paper)
-  symple/                    Early simple-baseline reproduction (pre-publication)
-
 data/                       Dataset preparation instructions (no raw data committed)
 
 docs/                       Extended documentation
