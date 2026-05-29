@@ -1,0 +1,77 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Environment
+.venv/
+venv/
+env/
+ENV/
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Data and model artifacts (too large for git; documented in data/README.md)
+data/raw/
+data/processed/
+data/megascale/
+data/s669/
+data/s461/
+data/ssym/
+data/fireprot/
+data/s2648/
+data/s4346/
+data/s571/
+data/s783/
+data/s8754/
+checkpoints/
+runs/
+*.pt
+*.npy
+*.npz
+*.h5
+*.lmdb/
+*.csv.gz
+
+# Figure outputs (regenerable)
+figures/out/
+*.pdf
+*.png
+!docs/*.png
+!docs/*.pdf
+
+# Job scheduler artifacts
+slurm-*.out
+*.log
+nohup.out
+
+# OS
+Thumbs.db
+ehthumbs.db

@@ -1,0 +1,25 @@
+# Core ML/numerics
+torch>=2.0.0
+numpy>=1.24
+scipy>=1.10
+pandas>=2.0
+scikit-learn>=1.3
+
+# Protein language models
+fair-esm>=2.0.0
+transformers>=4.30
+
+# Data loading
+lmdb>=1.4
+biopython>=1.81
+
+# Training utilities
+tqdm>=4.65
+einops>=0.7
+
+# Plotting / figures
+matplotlib>=3.7
+seaborn>=0.12
+
+# Optional analyses (experiments-archive only)
+umap-learn>=0.5
